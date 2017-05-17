@@ -12,13 +12,13 @@ even if/when canvas removes that functionality from core canvas.**
 To turn this on for users of your institution, you just need to add the following snippet 
 to your Custom JavaScript file file that you upload to the Canvas LMS Theme editor. It will
 grab the actual code in this repo that does all the work from a global cdn and run it on
-every page in your account. See the `index.js` file in this directory for what it actually does.
+every page in your account. See the [index.js](./index.js) file in this directory for what it actually does.
 
 ```javascript
 // Add this to your Custom JavaScript file in the CanvasLMS theme editor
 !function(s,d,url,e,p){
-  e=d.createElement(s),p=d.getElementsByTagName(s)[0];t.async=1;e.src=url;p.parentNode.insertBefore(e,p)
-}('script', document, 'https://unpkg.com/widgetize-canvas-lms-user-content')
+  e=d.createElement(s),p=d.getElementsByTagName(s)[0];e.async=1;e.src=url;p.parentNode.insertBefore(e,p)
+}('script', document, 'https://unpkg.com/widgetize-canvas-lms-user-content');
 ```
 
 

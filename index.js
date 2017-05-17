@@ -1,14 +1,14 @@
 /*
-This script is a drop-in replacement for the functionality in canvas that makes
-jqueryUI widgets out of your user content. The way it works is if you add some
-markup like:
-<div>
-  ...
-</div>
-It will continue to work even if/when canvas removes that functionality from core canvas.
+This script is a drop-in replacement for the functionality in CanvasLMS that makes
+jqueryUI widgets out of your user content.
+
+It will continue to work even if/when that functionality from core Canvas.
+
+See: https://github.com/ryankshaw/widgetize-canvas-lms-user-content#example-usage for
+how to author your content to work with this.
 
 note:
-This scripts gets it's own copy of jquery, and the jqueryUI js and jqueryUI css from a cdn.
+This scripts loads it's own copy of jquery, and the jqueryUI js and jqueryUI css.
 It then calls .noConflict so that it does not mess with or rely on Canvas's "$" or "jQuery"
 variable or any other code in Canvas.
 */
