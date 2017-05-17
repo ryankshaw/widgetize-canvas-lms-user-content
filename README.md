@@ -4,7 +4,7 @@ A drop-in replacement for the functionality in Canvas LMS that makes jqueryUI wi
 **I don't actually recommend people continue to use this going forward. I am just providing
 it so all of your legacy content that might have used the magic functionality in CanvasLMS 
 that makes jqueryUI widgets out of your user content continues to work exactly as it did before,
-even if/when canvas removes that functionality from core canvas.**
+even if/when that functionality is removed from core canvas.**
 
 ### This comes with no warranty and is not supported by Instructure
 
