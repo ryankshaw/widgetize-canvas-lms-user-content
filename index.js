@@ -187,11 +187,11 @@ var customizedJqueryUICSS = (function(){/**
 	cursor: pointer;
 	position: relative;
 	margin: 2px 0 0 0;
-	padding: .5em .5em .5em .7em;
+	padding: 12px 24px;
 	font-size: 100%;
 }
 .jqueryUIWidgetized.ui-accordion .ui-accordion-header .ui-icon {
-  left: 0px;
+  left: 6px;
   display: inline-block;
 }
 .jqueryUIWidgetized.ui-accordion .ui-accordion-content {
